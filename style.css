@@ -1,0 +1,55 @@
+body {
+    background-color: silver;
+    color: white;
+}
+p{
+    font-size: 1.2em;
+}
+.button{
+    cursor: pointer;
+    padding: 7px;
+    margin: 3px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: lightyellow;
+}
+.main-div{
+        margin: auto;
+        width: 48%;
+        border: 1px solid #FFFF00;
+        border-radius: 3em;
+        padding: 10px;
+        background-image: url(./img/form.gif);
+}
+.head1{
+    text-align: center;
+    font-size: 50px;
+}
+.head2{
+    text-align: center;
+}
+.section1, .section2, .footer{
+    text-align: center;
+}
+.recomend{
+    width: auto;
+    padding-left: 15rem;
+}
+.radio{
+    float: left;
+    padding-left: 50em;
+}
+.label{
+    float: left;
+    padding-left: 20px;
+    /* line-height: 1.1em; */
+}
+.input{
+    margin:0;
+    float: left;
+    margin-left: 15.5rem;
+}
+.input-radius{
+    border: 2px solid #FFFF00;
+    border-radius: 0.5em;
+}

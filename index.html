@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Clarusway Survey Form</title>
+</head>
+<body>
+    <div class="main-div">
+    <header>
+        <h1 class="head1">Clarusway Survey Form</h1>
+        <h2 class="head2">Thank you for taking the time to help us improve the platform</h2>
+    </header>
+    <div>
+        <form action="./result.html">
+            <div class="section1">
+                <label for="name">Name</label><br>
+                <input class="input-radius" type="text" name="name" id="name" placeholder="Enter Your Name" required><br><br>
+                <label for="sname">Surname</label><br>
+                <input class="input-radius" type="text" name="sname" id="sname" placeholder="Enter Your Surname" required><br><br>
+                <label for="email">Email</label><br>
+                <input class="input-radius" type="email" name="email" id="email" placeholder="Enter Your Email" required>
+            </div>
+            <div class="section2">
+                <p>Which option best describes your current role?</p>
+                <select class="input-radius" name="role" id="" required>
+                    <option disable selected value="Select current role">Select current role</option>
+                    <option value="Student">Student</option>
+                    <option value="Teacher">Teacher</option>
+                    <option value="Full Time Job">Full Time Job</option>
+                    <option value="Part Time Job">Part Time Job</option>
+                    <option value="Full Time LEarner">Full Time Learner</option>
+                    <option value="Prefer not to say">Prefer not to say</option>
+                </select>
+                <p>Would you recommend Clarusway to a friend?</p>
+                <div class="recomend">
+                    <input class="radio" type="radio" name="recomend" id="yes" value="Definetly, yes">
+                    <label class="label" for="yes">Definetly, yes</label><br>
+                    <input class="radio" type="radio" name="recomend" id="maybe" value="Maybe">
+                    <label class="label" for="maybe">Maybe</label><br>
+                    <input class="radio" type="radio" name="recomend" id="not" value="Not sure">
+                    <label class="label" for="not">Not sure</label><br>
+                    <input class="radio" type="radio" name="recomend" id="no" value="Definetly, No">
+                    <label class="label" for="no">Definetly, No</label>
+                </div><br>
+                <p>What is your favorite feature of Clarusway?</p>
+                <select class="input-radius" name="feature" id="">
+                    <option disable selected value="">Select an option</option>
+                    <option value="courses">Courses</option>
+                    <option value="projects">Projects</option>
+                    <option value="community">Community</option>
+                    <option value="mentors">Mentors</option>
+                </select>
+                <p>What would you like to see improved? (Check all that apply)</p>
+                <div class="improve">
+                    <input class="input" type="checkbox" name="skills" id="fr" value="Front-end Projects">
+                    <label class="label" for="fr">Front-end Projects</label><br>
+                    <input class="input" type="checkbox" name="skills" id="bc" value="Back-end Projects">
+                    <label class="label" for="bc">Back-end Projects</label><br>
+                    <input class="input" type="checkbox" name="skills" id="dt" value="Data Science">
+                    <label class="label" for="dt">Data Science</label><br>
+                    <input class="input" type="checkbox" name="skills" id="add" value="Additional Courses">
+                    <label class="label" for="add">Additional Courses</label><br>
+                </div>
+            </div>
+            <div class="footer">
+                <p>Any comments or suggestions</p>
+                <textarea class="input-radius" name="comments" id="comments" cols="30" rows="10" placeholder="Enter your comment here.. "></textarea><br>
+                <input class="button" type="submit" id="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
